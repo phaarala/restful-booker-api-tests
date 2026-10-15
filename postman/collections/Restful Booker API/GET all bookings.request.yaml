@@ -1,0 +1,8 @@
+$kind: http-request
+url: https://restful-booker.herokuapp.com/booking
+method: GET
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+order: 1000
